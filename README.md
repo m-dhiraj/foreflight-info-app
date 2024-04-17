@@ -41,26 +41,31 @@ To run tests, use the following command:
 ## Design Decisions and Tradeoffs
 
 Frontend Framework:
+
 Decision: I chose to use React because of its component based architecture and it popularity, having expirence in it makes it fast and efficent to devlop in.
 
 Tradeoff: There is a learning curve for devlopers not expirenced in React, potentially impacting the scaling of my application being reliant as it relies on the foundation of others.
 
 Backend Technology:
+
 Decision: I chose to stick with React and not incorporate any backend framework or technology due to the nature of the assessment, it was lightweight and straightforward with no dense server-side logic.
 
 Tradeoff: I lost the ability to have an elaborate server-side logic and to connect to technologies like a database to store and retrieve data, this would be something I have to consider if adding authentication to store the state of a webpage after each use of my application.
 
 State Management:
+
 Decision: I decided to utilize Redux to handle the global state of my application as numerous components were referencing that state. Also helps deal with the async data fetching that was technically supposed to be implemented.
 
 Tradeoff: Setting up the Redux foundation is time consuming rather than using props to pass my data through components, but the down side of that is the difficulty to debug and scale my applicaiton.
 
 Styling:
+
 Decision: I used simple CSS files to style my application do to its lightweight nature.
 
 Tradeoff: External libraries such as Material UI can provide access to visual styling and features popular to users and enhance their experience, this also reduces the overall CSS code to style each component.
 
 Testing:
+
 Decision: I wrote unit tests and snapshot tests to ensure code coverage and functionality of my code.
 
 Tradeoff: Writing tests for your functions is time taking and can hinder your devlopment speed, but the tradeoff is the reliability of your functions.
