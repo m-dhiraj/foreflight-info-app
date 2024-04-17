@@ -1,0 +1,30 @@
+.search-bar-container {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.search-bar-container input {
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 300px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.search-bar-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-bar-container button:hover {
+    background-color: darkblue;
+}

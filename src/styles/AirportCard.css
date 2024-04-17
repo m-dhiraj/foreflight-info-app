@@ -1,0 +1,51 @@
+.airport-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 1000px;
+    font-family: Arial, sans-serif;
+}
+
+.airport-card h1, .airport-card h2 {
+    color: #333;
+}
+
+.airport-card p, .airport-card li {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.airport-card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.remove-button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.remove-button:hover {
+    background-color: darkred;
+}
+
+.airport-card h2, .airport-card p {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.airport-card > button {
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+}

@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AirportCard Component renders correctly and matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="airport-card"
+  >
+    <h1>
+      KAUS
+    </h1>
+    <h2>
+      Austin-Bergstrom International
+    </h2>
+    <p>
+      Austin, Texas
+    </p>
+    <p>
+      Available Runways:
+    </p>
+    <ul>
+      <li>
+        18L-36R - Length: 9000 feet
+      </li>
+      <li>
+        18R-36L - Length: 12250 feet
+      </li>
+    </ul>
+    <p>
+      Latitude: 30.19452702415562
+    </p>
+    <p>
+      Longitude: -97.66987607813589
+    </p>
+    <h2>
+      Current Weather
+    </h2>
+    <p>
+      Temperature: 48.2 F
+    </p>
+    <p>
+      Relative Humidity: 58%
+    </p>
+    <p>
+      Cloud Coverage: Clouds are Overcast
+    </p>
+    <p>
+      Visibility: 10 miles
+    </p>
+    <p>
+      Wind: 8.1 MPH at NE degrees
+    </p>
+    <h2>
+      Forecast
+    </h2>
+    <div
+      class="forecast-card"
+    >
+      <h3>
+        06:00
+      </h3>
+      <p>
+        Wind Speed: 8.1 MPH
+      </p>
+      <p>
+        Wind Direction: 40°
+      </p>
+    </div>
+    <div
+      class="forecast-card"
+    >
+      <h3>
+        12:00
+      </h3>
+      <p>
+        Wind Speed: 4.6 MPH
+      </p>
+      <p>
+        Wind Direction: 20°
+      </p>
+    </div>
+    <button
+      class="remove-button"
+    >
+      Remove
+    </button>
+  </div>
+</DocumentFragment>
+`;
