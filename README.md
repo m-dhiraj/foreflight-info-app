@@ -3,7 +3,7 @@ A React app that allows users to query and visualize realtime airport informatio
 
 Utilizes the Foreflight Weather and Airport API for data collection*, uses Redux to handle state and Jest for testing.
 
-*Currently only supports a static rendering of the KAUS airport due to api vpn issues
+*Currently only supports a static rendering of the KAUS airport due to api vpn issues communicated to me by the recruiter
 
 ## Getting Started
 
@@ -44,7 +44,7 @@ Frontend Framework:
 
 Decision: I chose to use React because of its component based architecture and it popularity, having expirence in it makes it fast and efficent to devlop in.
 
-Tradeoff: There is a learning curve for devlopers not expirenced in React, potentially impacting the scaling of my application being reliant as it relies on the foundation of others.
+Tradeoff: There is a learning curve for devlopers not expirenced in React, potentially impacting the scaling of my application as it relies on the foundation of others.
 
 Backend Technology:
 
@@ -70,3 +70,6 @@ Decision: I wrote unit tests and snapshot tests to ensure code coverage and func
 
 Tradeoff: Writing tests for your functions is time taking and can hinder your devlopment speed, but the tradeoff is the reliability of your functions.
 
+Other Design Choices:
+
+I choose to implement a page with a central search that can query one airport at a time, the user can choose to populate the page with as many airports as they deem fit but it is up to them. I thought that is a more intuitive approach to the usability of my app rather than have the user enter a list of airport codes that they want to query at once, it also lightens the load on my application. 
