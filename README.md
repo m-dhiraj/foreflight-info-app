@@ -19,19 +19,49 @@ To get started, download the ZIP file containing the project from the provided l
 
 1. Extract the ZIP file to a directory of your choice.
 2. Open a terminal or command prompt and navigate to the extracted directory.
-3. Install the necessary packages by running the following command: ```npm install``
+3. Install the necessary packages by running the following command: 
+```npm install```
 
 ### Running the Application
 
-After installing the packages, you can start the application by running the following command: ```npm start```
+After installing the packages, you can start the application by running the following command: 
+```npm start```
 
 This will run the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser. The page will reload when you make edits.
 
 ## Usage
 
-To use the application, simply enter the ICAO airport code into the search bar and press the "Search" button. The app will query the internal APIs and display information about the specified airport.
+To use the application, simply enter the ICAO airport code into the search bar and press the "Search" button. The app will query the internal APIs and display information about the specified airport. Look through the airport information displayed, you can choose to add more airports to your list by using the same search bar. Once you decide you want to remove an airport, simply press the remove button on the appropriate airport card.
 
 ## Running Tests
 
-To run tests, use the following command: ```npm test```
+To run tests, use the following command: 
+```npm test```
+
+## Design Decisions and Tradeoffs
+
+Frontend Framework:
+Decision: I chose to use React because of its component based architecture and it popularity, having expirence in it makes it fast and efficent to devlop in.
+
+Tradeoff: There is a learning curve for devlopers not expirenced in React, potentially impacting the scaling of my application being reliant as it relies on the foundation of others.
+
+Backend Technology:
+Decision: I chose to stick with React and not incorporate any backend framework or technology due to the nature of the assessment, it was lightweight and straightforward with no dense server-side logic.
+
+Tradeoff: I lost the ability to have an elaborate server-side logic and to connect to technologies like a database to store and retrieve data, this would be something I have to consider if adding authentication to store the state of a webpage after each use of my application.
+
+State Management:
+Decision: I decided to utilize Redux to handle the global state of my application as numerous components were referencing that state. Also helps deal with the async data fetching that was technically supposed to be implemented.
+
+Tradeoff: Setting up the Redux foundation is time consuming rather than using props to pass my data through components, but the down side of that is the difficulty to debug and scale my applicaiton.
+
+Styling:
+Decision: I used simple CSS files to style my application do to its lightweight nature.
+
+Tradeoff: External libraries such as Material UI can provide access to visual styling and features popular to users and enhance their experience, this also reduces the overall CSS code to style each component.
+
+Testing:
+Decision: I wrote unit tests and snapshot tests to ensure code coverage and functionality of my code.
+
+Tradeoff: Writing tests for your functions is time taking and can hinder your devlopment speed, but the tradeoff is the reliability of your functions.
 
