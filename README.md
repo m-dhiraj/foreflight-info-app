@@ -15,7 +15,7 @@ Before you begin, ensure you have Node.js installed on your computer. You can ch
 
 ### Installation
 
-To get started, download the ZIP file containing the project from the provided link.
+To get started, download the ZIP file or clone the repo containing the project from the provided link.
 
 1. Extract the ZIP file to a directory of your choice.
 2. Open a terminal or command prompt and navigate to the extracted directory.
