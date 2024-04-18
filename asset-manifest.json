@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/foreflight-info-app/static/css/main.300fa405.css",
+    "main.js": "/foreflight-info-app/static/js/main.08e4d01c.js",
+    "static/js/453.799d67c7.chunk.js": "/foreflight-info-app/static/js/453.799d67c7.chunk.js",
+    "index.html": "/foreflight-info-app/index.html",
+    "main.300fa405.css.map": "/foreflight-info-app/static/css/main.300fa405.css.map",
+    "main.08e4d01c.js.map": "/foreflight-info-app/static/js/main.08e4d01c.js.map",
+    "453.799d67c7.chunk.js.map": "/foreflight-info-app/static/js/453.799d67c7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.300fa405.css",
+    "static/js/main.08e4d01c.js"
+  ]
+}
